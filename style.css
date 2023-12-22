@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.redes{
+    text-align: center;
+    padding: 17px;
+    background-color: rgb(46, 45, 45);
+    border-radius: 15px;
+    color: white;
+}
+.redes:hover  {
+    color: #2EB657;
+    background-color: white;
+    animation: redes 0.2s linear alternate;
+}
+@keyframes redes{
+    from {
+        transform: translatex(40px);
+    }
+    to{
+        transform: translatex(0px);
+    }
+}
+
+.REDES{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(46, 45, 45);
+    border-radius: 15px;
+    color: white;
+}
